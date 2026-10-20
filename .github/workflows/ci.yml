@@ -1,0 +1,42 @@
+# Unity / C# 工程轻量校验 CI
+# 说明：完整的 Unity 构建需要 Unity 个人版许可证与专用 runner，课程作业场景下本 CI
+# 只做"关键文件存在 + 配置合法 + 源码非空"的防护性校验，保证仓库不被误传坏。
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 校验 Packages/manifest.json 是合法 JSON
+        run: |
+          python3 -c "import json,sys; json.load(open('Packages/manifest.json')); print('manifest.json OK')"
+
+      - name: 校验 Unity 版本文件存在
+        run: |
+          test -f ProjectSettings/ProjectVersion.txt
+          echo "ProjectVersion.txt:"
+          cat ProjectSettings/ProjectVersion.txt
+
+      - name: 校验所有 C# 源码文件非空
+        run: |
+          found=0
+          for f in $(find Assets/Scripts -name '*.cs' -type f); do
+            found=$((found+1))
+            if [ ! -s "$f" ]; then echo "::error file=$f::脚本文件为空"; exit 1; fi
+          done
+          echo "共校验 $found 个 .cs 文件，全部非空"
+
+      - name: 校验至少有一个 Unity 场景
+        run: |
+          count=$(find Assets/Scenes -name '*.unity' -type f | wc -l)
+          echo "场景数: $count"
+          if [ "$count" -lt 1 ]; then echo "::error::Assets/Scenes 下没有任何 .unity 场景"; exit 1; fi

@@ -1,0 +1,132 @@
+{
+    "activeFile": "森林.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "全部文件 (*)",
+    "fileStates": {
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/Sprite-0002.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/bailiushu.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 3
+        },
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/bailixiang.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/jinzhanhua.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/kangfucao.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/qianma.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 1
+        },
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/xunyicao.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/绳结.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 3
+        },
+        "Stardew valley/Buildings/houses..tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Stardew valley/Maps/WizardHouseTiles..tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Stardew valley/Maps/farmhouse_tiles..tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
+        "Stardew valley/TileSheets/furniture..tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Stardew valley/WitchHutTiles..tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Stardew valley/spring_outdoorsTileSheet.zh-CN..tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "Stardew valley/townInterior.zh-CN..tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        },
+        "furniture.zh-CN..tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "小屋.tmx": {
+            "expandedObjectLayers": [
+                11,
+                10
+            ],
+            "scale": 1.5,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 199,
+                "y": 143.99999999999997
+            }
+        },
+        "小屋.tmx#furniture.": {
+            "scaleInDock": 1
+        },
+        "森林.tmx": {
+            "expandedObjectLayers": [
+                8
+            ],
+            "scale": 0.75,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 531.3333333333334,
+                "y": 329.3333333333333
+            }
+        }
+    },
+    "last.imagePath": "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/map/Stardew valley",
+    "map.height": 50,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 60,
+    "openFiles": [
+        "小屋.tmx",
+        "Stardew valley/spring_outdoorsTileSheet.zh-CN..tsx",
+        "Stardew valley/Buildings/houses..tsx",
+        "森林.tmx"
+    ],
+    "project": "Witch of the Wood-MAP.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "小屋.tmx",
+        "Stardew valley/spring_outdoorsTileSheet.zh-CN..tsx",
+        "Stardew valley/Buildings/houses..tsx",
+        "森林.tmx",
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/xunyicao.tsx",
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/Sprite-0002.tsx",
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/qianma.tsx",
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/kangfucao.tsx",
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/jinzhanhua.tsx",
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/bailixiang.tsx",
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/bailiushu.tsx",
+        "C:/Users/Administrator/zuoye/Witch of the Wood/Assets/Sprites/绳结.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
