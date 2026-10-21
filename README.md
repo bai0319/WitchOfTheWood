@@ -78,15 +78,15 @@ Witch of the Wood/
 
 > `Library/`、`Temp/`、`obj/`、`Logs/`、`UserSettings/`、`.vs/` 等由 Unity 自动生成，已在 `.gitignore` 中忽略，不入库。
 
----
+```
 
 ## 快速开始
 
 1. 安装 **Unity Hub**，并在 Hub 中加装 **Unity 2022.3.62f3c1**（带 **2D 工作负载**）。
 2. Clone 本仓库：
-   `ash
+   ```bash
    git clone https://github.com/bai0319/WitchOfTheWood.git
-   `
+   ```
 3. 在 Unity Hub 中 → `Add project from disk` → 选择本工程根目录（包含 `Assets/` 的那一层）。
 4. 首次打开会自动还原 `Packages/manifest.json` 中的依赖，等待编译完成。
 5. 打开 `Assets/Scenes/` 下的主场景，按 ▶ 运行。
