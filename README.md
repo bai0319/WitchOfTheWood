@@ -58,7 +58,7 @@
 
 ## 目录结构
 
-``
+```text
 Witch of the Wood/
 ├── Assets/
 │   ├── Scenes/          # Unity 场景 .unity
@@ -75,7 +75,6 @@ Witch of the Wood/
 ├── ProjectSettings/     # 工程设置（Unity 版本、Graphics 等）
 ├── com.seanba.super-tiled2unity/  # 本地 Tiled 导入包
 └── README.md  .gitignore
-``
 
 > `Library/`、`Temp/`、`obj/`、`Logs/`、`UserSettings/`、`.vs/` 等由 Unity 自动生成，已在 `.gitignore` 中忽略，不入库。
 
