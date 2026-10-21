@@ -11,14 +11,25 @@
 | 项目 | 说明 |
 |---|---|
 | 引擎 | **Unity 2022.3.62f3c1** |
-| 渲染 | 2D（`com.unity.feature.2d`） |
-| 地图 | Tiled `.tmx` / `.tsx`，通过 **SuperTiled2Unity** 导入 |
+| 渲染 | 2D（com.unity.feature.2d） |
+| 地图 | Tiled .tmx / .tsx，通过 **SuperTiled2Unity** 导入 |
 | 视觉辅助 | Cinemachine 2.10.7 |
 | UI | uGUI + TextMeshPro 3.0.9 |
 | 脚本语言 | **C#**（.NET Standard / Unity 类库） |
 
-> 本项目是 Unity / C# 工程，**不是 Python 项目**，因此没有 `requirements.txt`。
 > 第三方依赖由 `Packages/manifest.json`（Unity Package Manager）管理，用 Unity Hub 打开工程时会自动还原。
+
+---
+
+## 操作
+
+| 按键 | 功能 |
+|---|---|
+| `WASD` / 方向键 | 移动 |
+| `E` / 空格 | 交互（采集、对话、开门） |
+| `I` | 打开背包 |
+| `B` | 打开线索日记 |
+| `Esc` | 暂停 / 返回 |
 
 ---
 
@@ -47,23 +58,24 @@
 
 ## 目录结构
 
-```
+``
 Witch of the Wood/
 ├── Assets/
 │   ├── Scenes/          # Unity 场景 .unity
 │   ├── Scripts/         # C# 源码（23 个）
 │   ├── Sprites/         # 精灵图 / 瓦片 PNG
-│   ├── Characters/      # 角色动画、Animator Controller
-│   ├── Fonts/           # 中文字体 + TMP SDF
+│   ├── Characters/       # 角色动画、Animator Controller
+│   ├── Fonts/            # 中文字体 + TMP SDF
 │   ├── TextMesh Pro/    # TMP 资源
-│   ├── UI/  UI Toolkit/ # UI
+│   ├── UI/              # UI（空目录）
+│   ├── UI Toolkit/      # UI Toolkit 资源
 │   └── Tiled2Unity/     # Tiled 导入产物
 ├── Packages/
 │   └── manifest.json    # UPM 依赖清单
 ├── ProjectSettings/     # 工程设置（Unity 版本、Graphics 等）
 ├── com.seanba.super-tiled2unity/  # 本地 Tiled 导入包
 └── README.md  .gitignore
-```
+``
 
 > `Library/`、`Temp/`、`obj/`、`Logs/`、`UserSettings/`、`.vs/` 等由 Unity 自动生成，已在 `.gitignore` 中忽略，不入库。
 
@@ -73,9 +85,9 @@ Witch of the Wood/
 
 1. 安装 **Unity Hub**，并在 Hub 中加装 **Unity 2022.3.62f3c1**（带 **2D 工作负载**）。
 2. Clone 本仓库：
-   ```bash
-   git clone https://github.com/<你的用户名>/WitchOfTheWood.git
-   ```
+   `ash
+   git clone https://github.com/bai0319/WitchOfTheWood.git
+   `
 3. 在 Unity Hub 中 → `Add project from disk` → 选择本工程根目录（包含 `Assets/` 的那一层）。
 4. 首次打开会自动还原 `Packages/manifest.json` 中的依赖，等待编译完成。
 5. 打开 `Assets/Scenes/` 下的主场景，按 ▶ 运行。
@@ -84,4 +96,4 @@ Witch of the Wood/
 
 ## 标签
 
-`Unity` `C#` `2D-Game` `Game-Jam` `Tiled` `SuperTiled2Unity` `Course-Project`
+`Unity` `C#` `Unity-2D` `2D-Game` `Tiled` `SuperTiled2Unity` `Course-Project`
